@@ -9,6 +9,10 @@
 
 DEVICE_PATH := device/xiaomi/perseus
 
+BUILD_BROKEN_DUP_RULES := true
+
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := perseus
 
