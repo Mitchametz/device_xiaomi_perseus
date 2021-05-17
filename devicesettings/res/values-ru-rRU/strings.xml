@@ -63,4 +63,17 @@
     <string name="slider_settings_summary">Настройте параметры слайдера</string>
     <string name="slider_mode_title">Режим камеры</string>
     <string name="slider_mode_summary">Не включать камеру при открытии слайдера</string>
+
+    <!-- Slider settings: Sounds -->
+    <string name="slider_sound_title">Звуки Слайдера</string>
+    <string name="slider_sound_summary">Выберите звуковой эффект</string>
+
+    <!-- Slider settings: Sound types -->
+    <string name="slider_sound_door">Железная дверь</string>
+    <string name="slider_sound_jianghu">Воин</string>
+    <string name="slider_sound_jiguan">Механика</string>
+    <string name="slider_sound_keji">Хай-тек</string>
+    <string name="slider_sound_lingdong">Интеллект</string>
+    <string name="slider_sound_zippo">Зажигалка</string>
+    <string name="slider_sound_none">Без звука</string>
 </resources>
