@@ -88,3 +88,5 @@ PRODUCT_COPY_FILES += \
 # Slider settings
 PRODUCT_PACKAGES += \
     DeviceSettings
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/parts/snd,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
