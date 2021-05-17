@@ -77,6 +77,7 @@
     <string name="slider_sound_summary">Select sound effect</string>
 
     <!-- Slider settings: Sound types -->
+    <string name="slider_sound_door">Iron Door</string>
     <string name="slider_sound_jianghu">Warrior</string>
     <string name="slider_sound_jiguan">Mechanics</string>
     <string name="slider_sound_keji">Hi-tech</string>
