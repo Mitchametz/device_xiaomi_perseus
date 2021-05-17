@@ -53,7 +53,7 @@ public class SliderSettingsFragment extends PreferenceFragment implements
 
         int sliderDisabled = SystemProperties.getInt(SLIDER_DISABLE_PROPERTY, 0);
         if (sliderDisabled == 1) {
-            mSoundPreference.setEnabled(true);
+            mSoundPreference.setEnabled(false);
         } else {
             mSoundPreference.setEnabled(true);
         }
@@ -69,13 +69,13 @@ public class SliderSettingsFragment extends PreferenceFragment implements
                     mSoundPreference.setEnabled(true);
                 } else {
                     SystemProperties.set(SLIDER_DISABLE_PROPERTY, "1");
-                    mSoundPreference.setEnabled(true);
+                    mSoundPreference.setEnabled(false);
                 }
                 return true;
             case SLIDER_SOUND_KEY:
                 SystemProperties.set(SLIDER_SOUND_PROPERTY, (String.valueOf(newValue)));
                 return true;
-            default: return true;
+            default: return false;
         }
     }
 
@@ -85,7 +85,7 @@ public class SliderSettingsFragment extends PreferenceFragment implements
             getActivity().onBackPressed();
             return true;
         }
-        return true;
+        return false;
     }
 
 }

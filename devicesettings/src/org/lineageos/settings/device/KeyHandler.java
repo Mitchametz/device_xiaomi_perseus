@@ -153,9 +153,7 @@ public class KeyHandler extends CameraManager.AvailabilityCallback
             intent = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
         }
 
-        intent.putExtra("android.intent.extras.CAMERA_FACING", android.hardware.Camera.CameraInfo.CAMERA_FACING_FRONT);
-        intent.putExtra("android.intent.extras.LENS_FACING_FRONT", 1);
-        intent.putExtra("android.intent.extra.USE_FRONT_CAMERA", true);
+        intent.putExtra("android.intent.extra.USE_FRONT_CAMERA", frontCamera);
 
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
                 | Intent.FLAG_ACTIVITY_CLEAR_TASK);
