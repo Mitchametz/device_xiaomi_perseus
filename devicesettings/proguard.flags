@@ -1,8 +1,4 @@
+# Keep keyhandler constructor
 -keep class org.lineageos.settings.device.* {
   *;
 }
-
--keep class org.lineageos.settings.doze.* {
-  *;
-}
-
