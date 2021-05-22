@@ -89,4 +89,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/parts/snd,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/devicesettings/snd,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
