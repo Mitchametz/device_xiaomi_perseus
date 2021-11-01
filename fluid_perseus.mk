@@ -7,14 +7,14 @@
 $(call inherit-product, device/xiaomi/perseus/device.mk)
 
 # Inherit some common xdroid-CAF stuff.
-$(call inherit-product, vendor/xdroid/config/common.mk)
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 XDROID_BOOT_DARK := true
 XDROID_UI_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xdroid_perseus
+PRODUCT_NAME := fluid_perseus
 PRODUCT_DEVICE := perseus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 3
